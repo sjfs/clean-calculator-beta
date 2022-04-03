@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+	char strEXP[]="3+4";
+	int a,b;
+	a=strEXP[0]-'0';
+	b=strEXP[2]-'0';
+	printf("3+4=%d\n",a+b);
+  return 0;
+} 
